@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    border:none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Open Sans',sans-serif;
+}
+:root{
+    --h1-font:6rem;
+    --h2-font:3rem;
+    --para-font:1rem;
+    --text-color:#fff;
+    --bg-color:#000;
+    --main-color:#061b64;
+    
+   
+}
+header{
+   position: fixed;
+   top: 0;
+   right: 0; 
+   z-index: 10001;
+   width: 100%;
+   background: transparent;
+   padding: 10px;
+   display: flex;
+  
+   justify-content: space-between;
+   align-items: center;
+   transition: all .50s ease;
+}
+
+.logo img{
+   height: 60px;
+   width: 100%;
+}
+.navbar{
+    display: flex;
+}
+.navbar a{
+    color: var(--text-color);
+    font-size: var(--para-font);
+    font-weight: bold;
+    margin: 7px;
+    
+    transition: all .50s ease;
+}
+.navbar a:hover{
+    color: var(--main-color);
+}
+
+#menu-icon{
+   color: var(--text-color);
+   cursor: pointer;
+   display: none; 
+   z-index: 10001;
+   font-size: 20px;
+}
+
+.parallax-container {
+    background-image: url('/images/background-image.jpg'); 
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom;
+    height: 100vh; 
+    overflow: hidden;
+    position: relative;
+}
+
+.parallax-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+.content {
+    background-color: #f0f0f0;
+    padding: 50px;
+    text-align: center;
+}
+
+
+
