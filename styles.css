@@ -15,7 +15,7 @@
     --h1-font:6rem;
     --h2-font:3rem;
     --para-font:1rem;
-    --text-color:#fff;
+    --text-color:#0e0b0b;
     --bg-color:#000;
     --main-color:#061b64;
     
@@ -64,7 +64,7 @@ header{
 }
 
 .parallax-container {
-    background-image: url('/images/background-image.jpg'); 
+    background-image: url("images/background-image.jpg"); 
     background-size: cover;
     background-attachment: fixed;
     background-position: bottom;
