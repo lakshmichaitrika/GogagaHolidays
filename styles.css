@@ -64,7 +64,11 @@ header{
 }
 
 .parallax-container {
+<<<<<<< HEAD
     background-image: url("images/background-image.jpg"); 
+=======
+    background-image: url('images/background-image.jpg'); 
+>>>>>>> f49bfd804197cd75da6f580da257823b3687db13
     background-size: cover;
     background-attachment: fixed;
     background-position: bottom;
