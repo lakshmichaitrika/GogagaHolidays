@@ -10,39 +10,284 @@
       src="https://kit.fontawesome.com/6776e23bdb.js"
       crossorigin="anonymous"
     ></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </head>
   <body>
+    <!--header section design-->
     <header>
-        <a href="#" class="logo">
-          <img src="images\logo.png"  alt="logo-image" />
-        </a>
-        <ul class="navbar">
-          <li><a href="#">Home </a></li>
-          <li><a href="#packages"> Holiday Packages</a></li>
-          <li><a href="#flights">Flight Booking</a></li>
-          <li><a href="#hotels">Hotel Booking</a></li>
-          <li><a href="#collections">Package Collections</a></li>
-          <li><a href="#">Contact</a></li>
-         
-        </ul>
-        <div class="bars">
-            <i class="fas fa-bars" id="menu-icon"></i>
-        </div>
-      </header>
-      <div class="parallax-container">
+      
+      <nav class="navbar navbar-expand-lg text-center ">
+        <div class="container-fluid d-flex justify-content-between">
+          <a href="#" class="logo">
+            <img src="images\logo.png" alt="logo-image" />
+          </a>
     
-        <div class="parallax-content">
-          <i class="fas fa-charging-station"></i>
-          <h1>Welcome to our Website</h1>
-          <p>This is a simple example of a parallax effect created using CSS.</p>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#collections">Package Collections</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#flights">Flight Booking</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#packages"> Holiday Packages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#hotels">Hotel Booking</a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+      
+    </header>
+   
+    <!--home section design-->
+    <section id="home" class="home-container">
+      <div class="home-content">
+        <p class="cursive-style">A Promise of a memorable travel experience</p>
+        <h1>
+          Does your Holiday <br />
+          need to be <br />
+          customized
+        </h1>
+        <h4>
+          Yes! We believe that every holiday needs to be customized as they are
+          unique. Explore our customized holidays for a memorable holiday
+          experience.
+        </h4>
+        <a href="#" class="button"
+          >Customize My Holiday <i class="fa-solid fa-arrow-right"></i
+        ></a>
+      </div>
+    </section>
+
+    <!--feature section design-->
+
+    <section id="packages" class="packages">
+      <div class="container">
+        <h2>Holiday Packages</h2>
+        <div class="package-container">
+          <div class="package">
+            <img src="images\dubai.jpg" alt="Package 1" />
+            <div class="package-details">
+              <h3>Package 1</h3>
+              <p>
+                Description of package 1 goes here. Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit.
+              </p>
+              <p>Price: <span class="line">₹22,999.00</span>₹19,999.00</p>
+              <a href="#hotels" class="button">Book Now</a>
+            </div>
+          </div>
+          <div class="package">
+            <img src="images\beach-sea.jpg" alt="Package 2" />
+            <div class="package-details">
+              <h3>Package 2</h3>
+              <p>
+                Description of package 2 goes here. Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit.
+              </p>
+              <p>Price: <span class="line">₹22,999.00</span>₹19,999.00</p>
+              <a href="#hotels" class="button">Book Now</a>
+            </div>
+          </div>
+          <div class="package">
+            <img src="images\t1.jpg" alt="Package 2" />
+            <div class="package-details">
+              <h3>Package 3</h3>
+              <p>
+                Description of package 3 goes here. Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit.
+              </p>
+              <p>Price: <span class="line">₹22,999.00</span>₹19,999.00</p>
+              <a href="#hotels" class="button">Book Now</a>
+            </div>
+          </div>
+          <div class="package">
+            <img src="images\t2.jpg" alt="Package 2" />
+            <div class="package-details">
+              <h3>Package 4</h3>
+              <p>
+                Description of package 4 goes here. Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit.
+              </p>
+              <p>Price: <span class="line">₹22,999.00</span>₹19,999.00</p>
+              <a href="#hotels" class="button">Book Now</a>
+            </div>
+          </div>
+          <div class="package">
+            <img src="images\t3.jpg" alt="Package 2" />
+            <div class="package-details">
+              <h3>Package 5</h3>
+              <p>
+                Description of package 5 goes here. Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit.
+              </p>
+              <p>Price: <span class="line">₹22,999.00</span>₹19,999.00</p>
+              <a href="#hotels" class="button">Book Now</a>
+            </div>
+          </div>
+          <div class="package">
+            <img src="images\t2.jpg" alt="Package 2" />
+            <div class="package-details">
+              <h3>Package 6</h3>
+              <p>
+                Description of package 6 goes here. Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit.
+              </p>
+              <p>Price: <span class="line">₹22,999.00</span>₹19,999.00</p>
+              <a href="#hotels" class="button">Book Now</a>
+            </div>
+          </div>
+
+          <!-- Add more packages as needed -->
         </div>
       </div>
-      <div class="content">
-        <h2>Main Content Goes Here</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec purus
-          sed dolor lacinia viverra.
-        </p>
+    </section>
+
+    <section id="collections" class="collections">
+      <div class="main container">
+       
+        <div class="card">
+          <img src="images\image1.jpg" alt="image" />
+          <div class="text-content">
+            <h1>Thailand</h1>
+            <button class="btn btn-success">
+              4Night/5Days
+            </button>
+            <p>
+              Range Starts from INR 13,999 per Person
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images\image2.jpg" alt="image" />
+          <div class="text-content">
+            <h1>Egypt</h1>
+            <button class="btn btn-success">
+              4Night/5Days
+            </button>
+            <p>
+              Range Starts from INR 13,999 per Person
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images\image3.jpg" alt="image" />
+          <div class="text-content">
+            <h1>Chain</h1>
+            <button class="btn btn-success">
+              4Night/5Days
+            </button>
+            <p>
+              Range Starts from INR 13,999 per Person
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images\image6.jpg" alt="image" />
+          <div class="text-content">
+            <h1>Thailand</h1>
+            <button class="btn btn-success">
+              4Night/5Days
+            </button>
+            <p>
+              Range Starts from INR 13,999 per Person
+            </p>
+          </div>
+        </div>
+       
+        <div class="card">
+          <img src="images\image4.jpg" alt="image" />
+          <div class="text-content">
+            <h1>Lakshadweep</h1>
+            <button class="btn btn-success">
+              4Night/5Days
+            </button>
+            <p>
+              Range Starts from INR 13,999 per Person
+            </p>
+          </div>
+        </div>
+      
+        
       </div>
+    </section>
+
+    <section id="flights" class="section">
+      <div class="container">
+        <h2>Flight Booking</h2>
+        <form id="flight-search-form">
+          <div class="form-group">
+            <label for="departure">Departure:</label>
+            <input
+              type="text"
+              id="departure"
+              name="departure"
+              placeholder="Enter departure city"
+            />
+          </div>
+          <div class="form-group">
+            <label for="destination">Destination:</label>
+            <input
+              type="text"
+              id="destination"
+              name="destination"
+              placeholder="Enter destination city"
+            />
+          </div>
+          <div class="form-group">
+            <label for="departure-date">Departure Date:</label>
+            <input type="date" id="departure-date" name="departure-date" />
+          </div>
+          <div class="form-group">
+            <label for="return-date">Return Date:</label>
+            <input type="date" id="return-date" name="return-date" />
+          </div>
+          <div class="form-group">
+            <button type="submit" class="button">Search Flights</button>
+          </div>
+        </form>
+        <div id="flight-results"></div>
+      </div>
+    </section>
+
+    <section id="hotels" class="section">
+      <div class="container">
+        <h2>Hotel Booking</h2>
+        <div class="search-form">
+          <h3>Find Your Perfect Hotel</h3>
+          <form>
+            <input type="text" placeholder="Enter destination" />
+            <input type="date" placeholder="Check-in" />
+            <input type="date" placeholder="Check-out" />
+            <input type="number" placeholder="Number of guests" />
+            <button type="submit" class="button">Search</button>
+          </form>
+        </div>
+       
+      </div>
+    </section>
+   
+
+   
+
+    <footer>
+      
+      <div class="container">
+        <p>&copy; 2024 Gogaga Holidays. All rights reserved.</p>
+      </div>
+    </footer>
+    
   </body>
 </html>
